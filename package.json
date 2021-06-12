@@ -1,0 +1,20 @@
+{
+  "name": "TimeClockBot",
+  "version": "2.0.0",
+  "description": "Time Clock Bot",
+  "main": "index.js",
+  "dependencies": {
+    "discord.js": "^12.3.1",
+    "nodemon": "^2.0.4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1"
+  },
+  "scripts": {
+    "start": "nodemon ./src/index.js --exec babel-node -e js"
+  },
+  "author": "agaspari",
+  "license": "ISC"
+}
